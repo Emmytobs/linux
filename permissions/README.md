@@ -37,4 +37,5 @@ Set read and write access to user and group and no access to others:
 You can also add/remove permissions for user, group or others using `+`/`-`:
 * `chmod u+x file.txt` (adds execute permission to the user)
 * `chmod o-x file.txt` (removes execute permission from others)
+* `chmod ug-x file.txt` (removes execute permission from user and group)
 * `chmod a-w file.txt` (removes write permission from user, group, and others)
